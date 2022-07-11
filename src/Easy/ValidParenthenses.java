@@ -2,7 +2,7 @@ package Easy;
 
 import java.util.Stack;
 
-public class ValidParathenses {
+public class ValidParenthenses {
 
     static boolean isValid(String s){
 
