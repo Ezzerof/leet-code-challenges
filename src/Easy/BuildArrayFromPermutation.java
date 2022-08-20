@@ -11,6 +11,7 @@ public class BuildArrayFromPermutation {
         return ans;
     }
 
+
     public static void main(String[] args) {
         int[] a = {0,2,1,5,3,4};
         a = buildArray(a);
