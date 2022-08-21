@@ -18,8 +18,6 @@ public class LengthOfLastWord {
 
         for (int i = arrS.size() - 1; i >= 0 ; i--) {
 
-            System.out.println(arrS.get(i));
-
             if (!arrS.get(i).equals("")) {
                 t = arrS.get(i);
                 break;
