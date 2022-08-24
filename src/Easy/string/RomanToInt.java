@@ -1,4 +1,4 @@
-package Easy;
+package Easy.string;
 
 import java.util.HashMap;
 import java.util.Locale;

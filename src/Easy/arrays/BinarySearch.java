@@ -1,4 +1,4 @@
-package Easy;
+package Easy.arrays;
 
 public class BinarySearch {
 

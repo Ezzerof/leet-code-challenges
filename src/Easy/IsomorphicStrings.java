@@ -3,7 +3,7 @@ package Easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public interface IsomorphicStrings {
+public class IsomorphicStrings {
 
     static boolean isIsomorphic(String s, String t){
 

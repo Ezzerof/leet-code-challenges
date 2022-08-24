@@ -1,4 +1,4 @@
-package Easy;
+package Easy.arrays;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;
