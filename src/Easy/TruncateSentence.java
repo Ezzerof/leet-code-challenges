@@ -8,11 +8,13 @@ public class TruncateSentence {
 
         String[] words = s.split(" ");
 
-        for (int i = 0; i < k; i++) {
+        for (int i = 0; i < words.length; i++) {
             result += words[i] + " ";
         }
 
         return result.trim();
     }
+
+
 
 }
