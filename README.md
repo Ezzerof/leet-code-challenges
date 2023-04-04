@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 ## General Info
-I found the LeetCode site to be very interesting and challenging, so I decided to do some exercises to improve my skills.
+I found the LeetCode to be very interesting and challenging, so I decided to do some exercises to improve my skills and save them here to see in the future what I can do better.
 
 ## Technologies
 * Java (JDK 8+)
