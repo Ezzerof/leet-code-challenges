@@ -25,18 +25,15 @@ public class DetermineColorOfAChessboardSquare {
             map.put((char) c++, i);
         }
 
-        int col = Integer.valueOf(String.valueOf(coordinates.charAt(1))) - 1;
+        int col = Integer.parseInt(String.valueOf(coordinates.charAt(1))) - 1;
         int row = map.get(coordinates.charAt(0)) - 1;
 
-        if (chessboard[col][row] == "black") {
-            return false;
-        }
-        return true;
+        return !chessboard[col][row].equals("black");
     }
 
     public static void main(String[] args) {
         DetermineColorOfAChessboardSquare d = new DetermineColorOfAChessboardSquare();
-        System.out.println(d.squareIsWhite("a1"));
+        System.out.println(d.squareIsWhite("a2"));
 
     }
 
