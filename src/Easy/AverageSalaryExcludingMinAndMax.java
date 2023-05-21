@@ -28,5 +28,4 @@ public class AverageSalaryExcludingMinAndMax {
         return total / (len - 1);
 
     }
-
 }
